@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Estado de Servicios</title>
+    <link rel="stylesheet" href="/CSS/estilos_cliente.css">
+</head>
+<body>
+    <h1>Consulta de Estado de Servicios</h1>
+    
+    <form id="formConsulta">
+        <label for="cedulaConsulta">Número de Cédula:</label>
+        <input type="text" id="cedulaConsulta" name="cedulaConsulta" required>
+        <button type="submit">Consultar</button>
+    </form>
+    
+    <table id="tablaResultados">
+        <thead>
+            <tr>
+                <th>Cédula</th>
+                <th>Fecha de Ingreso</th>
+                <th>Servicio Prestado</th>
+                <th>Valor del Servicio</th>
+                <th>Observaciones</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Los resultados de la consulta se cargarán aquí -->
+        </tbody>
+    </table>
+
+    <script src="/JS/cliente.js"></script>
+</body>
+</html>
