@@ -1,0 +1,2 @@
+# soldadura
+control de entregas
